@@ -1,16 +1,19 @@
 window.addEventListener('load', init);
 var slideIndex = 1;
 function init() {
+	document.getElementById('procjamB').addEventListener("mouseover", function() {showProcjam(true);});
   document.getElementById('faulknerB').addEventListener("mouseover", function() {showFaulkner(true);});
   document.getElementById('greaterWPIB').addEventListener("mouseover", function() {showExplore(true);});
   document.getElementById('PMPB').addEventListener("mouseover", function() {showPMP(true);});
   document.getElementById('TPLB').addEventListener("mouseover", function() {showTPL(true);});
 
+	document.getElementById('procjamB').addEventListener("mouseout", function() {showProcjam(false);});
   document.getElementById('faulknerB').addEventListener("mouseout", function() {showFaulkner(false);});
   document.getElementById('greaterWPIB').addEventListener("mouseout", function() {showExplore(false);});
   document.getElementById('PMPB').addEventListener("mouseout", function() {showPMP(false);});
   document.getElementById('TPLB').addEventListener("mouseout", function() {showTPL(false);});
 
+	document.getElementById('procjamB').addEventListener("click", function() {redirectToGitHub('https://github.com/ginagr/procjam');});
   document.getElementById('faulknerB').addEventListener("click", function() {redirectToGitHub('https://github.com/SoftEngTeamC/FaulknerMap2');});
   document.getElementById('greaterWPIB').addEventListener("click", function() {redirectToGitHub('https://github.com/ginagr/Urban_Adventure');});
   document.getElementById('TPLB').addEventListener("click", function() {redirectToGitHub('https://github.com/ginagr/ThePerfectLineup3.0');});
@@ -44,6 +47,15 @@ function switchNav(idName) {
   document.getElementById('info').style.display = 'none';
 
   idName.style.display = 'block';
+}
+
+function showProcjam(show){
+ var procjam = document.getElementById('procjam');
+ if(show){
+   procjam.innerHTML = "<li>Created for procjam 2017.</li><li>Tile Breaker is an iOS game for the iPhone. When playing, there will be a pattern to the right of the screen. The goal of the game is to get as high of a score as possible without having the tiles touch the bottom of the screen. The way to destroy tiles is by creating the pattern shown to the right of the screen. To switch tiles, the player only needs to tap one tile then the other.</li>";
+ } else {
+   procjam.innerHTML = "";
+ }
 }
 
 function showFaulkner(show){
