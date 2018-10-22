@@ -1,11 +1,15 @@
 {
-  "name": "lh-4241-simple-node",
-  "version": "0.1.0",
-  "description": "WPI CS 4241 Assignment 6",
-  "author": "Gina Gonzalez-Roundey",
-  "private": true,
+  "name": "g2r-site",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {}
+  "author": "ggr",
+  "license": "ISC",
+  "dependencies": {
+    "fullpage.js": "^3.0.3",
+    "popper.js": "^1.14.4"
+  }
 }

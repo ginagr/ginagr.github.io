@@ -1,0 +1,141 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255, 255, 255, 0.54);
+}
+.hover-bounce:hover {
+	animation: bounce 1.5s;
+	animation-iteration-count: infinite;
+}
+.hover-bounce {
+	padding: 0 12%;
+}
+
+.icon {
+	height: 95px;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px 0;
+}
+
+.move-button {
+	position: relative;
+	transition: all 500ms ease; 
+}
+.move-button:before {
+	content:'';
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 0px;
+	height: 105%;
+	background: rgba(255,255,255,0.3);
+	transition: all 1.5s ease;
+	border-radius: .3rem;
+}
+.move-button:hover:before {
+	width: 101%;
+}
+.view-more {
+	height: 23px;
+}
+.card {
+	background-color: rgba(255, 255, 255, 0.22);
+}
+.card-header:hover {
+	cursor: pointer;
+}
+.card-header {
+	background-color: rgba(255, 255, 255, 0.13);
+}
+.skill-circle {
+	float: left;
+	height: 115px;
+	width: 115px;
+	margin: 5px;
+	border: 5px solid #2f446e;
+	transform: rotate(45deg);
+	border-radius: 50%;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+.alot {
+	border-top-color: rgba(119,136,153, 0.25);
+}
+.some {
+	border-top-color: rgba(119,136,153, 0.25);
+	border-right-color: rgba(119,136,153, 0.25);
+}
+.little {
+	border-top-color: rgba(119,136,153, 0.25);
+	border-right-color: rgba(119,136,153, 0.25);
+	border-bottom-color: rgba(119,136,153, 0.25);
+}
+.text {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+	font-style: italic;
+	transform: rotate(-45deg);
+}
+.fp-tableCell {
+	height: auto !important;
+}
+.img-fluid {
+	max-width: 60%;
+	margin: 0 auto;
+}
+.my-4 {
+	border-top: .5px solid white;
+}
+a:hover {
+	text-decoration: none;
+}
+.rainbow {
+	background: red;
+	background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+	background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+	background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+	background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#fp-nav {
+	top: 1%;
+	margin-top: 0 !important;
+	opacity: .54;
+}
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+	background: white;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+}
+#fp-nav ul li a.active span, 
+.fp-slidesNav ul li a.active span, 
+#fp-nav ul li:hover a.active span, 
+.fp-slidesNav ul li:hover a.active span {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0 0 -8px;
+	background: transparent;
+	box-sizing: border-box;
+	border: 1px solid #24221F;
+}
+.other-site {
+	position: relative;
+	top: -95%;
+	left: 95%;
+}
+.logoimg {
+	height: 100%;
+}
+.card-img-top {
+	height: 20vw;
+	object-fit: cover;
+}
+.text-muted {
+	color: lightblue !important;
+}
