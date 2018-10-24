@@ -16,7 +16,7 @@ var myFullpage = new fullpage('#fullpage', {
 	lockAnchors: false,
 	navigation: true,
 	navigationPosition: 'right',
-	navigationTooltips: ['summary', 'experience', 'projects', 'skills', 'fun', 'contact'],
+	navigationTooltips: ['summary', 'experience', 'projects', 'skills', 'fun', 'fun pt2', 'contact'],
 	showActiveTooltip: false,
 	slidesNavigation: true,
 	slidesNavPosition: 'bottom',
@@ -99,6 +99,7 @@ purple, #190033
 blue, #005270
 dark green, #0a6027
 green, #00705d
+goldgreen, #434F25
 gold, #703900
 */
 
