@@ -1,11 +1,175 @@
-body {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(255, 255, 255, 0.54);
+/*
+	Public Sans Font by uswds
+	https://github.com/uswds/public-sans
+*/
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-Black.woff2') format('woff2'), url('fonts/PublicSans-Black.woff') format('woff'), url('fonts/PublicSans-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-BlackItalic.woff2') format('woff2'), url('fonts/PublicSans-BlackItalic.woff') format('woff'), url('fonts/PublicSans-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-Bold.woff2') format('woff2'), url('fonts/PublicSans-Bold.woff') format('woff'), url('fonts/PublicSans-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-BoldItalic.woff2') format('woff2'), url('fonts/PublicSans-BoldItalic.woff') format('woff'), url('fonts/PublicSans-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-ExtraBold.woff2') format('woff2'), url('fonts/PublicSans-ExtraBold.woff') format('woff'), url('fonts/PublicSans-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-ExtraBoldItalic.woff2') format('woff2'), url('fonts/PublicSans-ExtraBoldItalic.woff') format('woff'), url('fonts/PublicSans-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-Medium.woff2') format('woff2'), url('fonts/PublicSans-Medium.woff') format('woff'), url('fonts/PublicSans-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-MediumItalic.woff2') format('woff2'), url('fonts/PublicSans-MediumItalic.woff') format('woff'), url('fonts/PublicSans-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-SemiBold.woff2') format('woff2'), url('fonts/PublicSans-SemiBold.woff') format('woff'), url('fonts/PublicSans-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-SemiBoldItalic.woff2') format('woff2'), url('fonts/PublicSans-SemiBoldItalic.woff') format('woff'), url('fonts/PublicSans-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-ExtraLight.woff2') format('woff2'), url('fonts/PublicSans-ExtraLight.woff') format('woff'), url('fonts/PublicSans-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-ExtraLightItalic.woff2') format('woff2'), url('fonts/PublicSans-ExtraLightItalic.woff') format('woff'), url('fonts/PublicSans-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-Light.woff2') format('woff2'), url('fonts/PublicSans-Light.woff') format('woff'), url('fonts/PublicSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-LightItalic.woff2') format('woff2'), url('fonts/PublicSans-LightItalic.woff') format('woff'), url('fonts/PublicSans-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-Regular.woff2') format('woff2'), url('fonts/PublicSans-Regular.woff') format('woff'), url('fonts/PublicSans-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-Italic.woff2') format('woff2'), url('fonts/PublicSans-Italic.woff') format('woff'), url('fonts/PublicSans-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-Thin.woff2') format('woff2'), url('fonts/PublicSans-Thin.woff') format('woff'), url('fonts/PublicSans-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Public Sans webfont';
+	src: url('fonts/PublicSans-ThinItalic.woff2') format('woff2'), url('fonts/PublicSans-ThinItalic.woff') format('woff'), url('fonts/PublicSans-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gangster Grotesk';
+	src: url('fonts/GangsterGrotesk-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gangster Grotesk';
+	src: url('fonts/GangsterGrotesk-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gangster Grotesk';
+	src: url('fonts/GangsterGrotesk-Light.otf') format('opentype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+body {
+	color: rgba(255, 255, 255, 0.54);
+	/* font-family: 'Public Sans webfont'; */
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Gangster Grotesk';
+	text-rendering: optimizeLegibility;
+	font-variant-ligatures: common-ligatures;
+	-webkit-font-variant-ligatures: common-ligatures;
+	-webkit-font-feature-settings: "kern";
+	font-feature-settings: "kern";
+	font-kerning: normal;
+	/* --color: red; */
+}
+
 .hover-bounce:hover {
+	/* color: --color; */
 	animation: bounce 1.5s;
 	animation-iteration-count: infinite;
 }
+
 .hover-bounce {
 	padding: 0 12%;
 }
@@ -20,35 +184,42 @@ body {
 
 .move-button {
 	position: relative;
-	transition: all 500ms ease; 
+	transition: all 500ms ease;
 	margin-bottom: 100px;
 }
+
 .move-button:before {
-	content:'';
+	content: '';
 	position: absolute;
 	top: -1px;
 	left: -1px;
 	width: 0px;
 	height: 105%;
-	background: rgba(255,255,255,0.3);
+	background: rgba(255, 255, 255, 0.3);
 	transition: all 1.5s ease;
 	border-radius: .3rem;
 }
+
 .move-button:hover:before {
 	width: 101%;
 }
+
 .view-more {
 	height: 23px;
 }
+
 .card {
 	background-color: rgba(255, 255, 255, 0.22);
 }
+
 .card-header:hover {
 	cursor: pointer;
 }
+
 .card-header {
 	background-color: rgba(255, 255, 255, 0.13);
 }
+
 .skill-circle {
 	float: left;
 	height: 115px;
@@ -61,18 +232,22 @@ body {
 	text-align: center;
 	display: inline-block;
 }
+
 .alot {
-	border-top-color: rgba(119,136,153, 0.25);
+	border-top-color: rgba(119, 136, 153, 0.25);
 }
+
 .some {
-	border-top-color: rgba(119,136,153, 0.25);
-	border-right-color: rgba(119,136,153, 0.25);
+	border-top-color: rgba(119, 136, 153, 0.25);
+	border-right-color: rgba(119, 136, 153, 0.25);
 }
+
 .little {
-	border-top-color: rgba(119,136,153, 0.25);
-	border-right-color: rgba(119,136,153, 0.25);
-	border-bottom-color: rgba(119,136,153, 0.25);
+	border-top-color: rgba(119, 136, 153, 0.25);
+	border-right-color: rgba(119, 136, 153, 0.25);
+	border-bottom-color: rgba(119, 136, 153, 0.25);
 }
+
 .text {
 	text-align: center;
 	vertical-align: middle;
@@ -80,45 +255,50 @@ body {
 	font-style: italic;
 	transform: rotate(-45deg);
 }
+
 .fp-tableCell {
 	height: auto !important;
 }
+
 .img-fluid {
 	max-width: 60%;
 	margin: 0 auto;
 }
+
 .my-4 {
 	border-top: .5px solid white;
 }
+
 a:hover {
 	text-decoration: none;
 }
+
 .rainbow {
 	background: red;
-	background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+	background: -webkit-linear-gradient(left, orange, yellow, green, cyan, blue, violet);
 	background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
 	background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-	background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+	background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	display: inline-block;
 }
+
 #fp-nav {
 	top: 1%;
 	margin-top: 0 !important;
 	opacity: .54;
 }
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span {
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
 	background: white;
 	width: 8px;
 	height: 8px;
 	margin: -4px 0 0 -4px;
 }
-#fp-nav ul li a.active span, 
-.fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
-.fp-slidesNav ul li:hover a.active span {
+
+#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
 	width: 16px;
 	height: 16px;
 	margin: -8px 0 0 -8px;
@@ -126,22 +306,28 @@ a:hover {
 	box-sizing: border-box;
 	border: 1px solid white;
 }
+
 .other-site {
 	position: relative;
 	top: -95%;
 	left: 95%;
 }
+
 .logoimg {
 	height: 100%;
 }
+
 .card-img-top {
 	height: 20vw;
 	object-fit: cover;
 }
+
 .text-muted {
 	color: lightblue !important;
 }
+
 /* Bubble Float Bottom */
+
 .hvr-bubble-float-bottom {
 	display: inline-block;
 	vertical-align: middle;
@@ -151,6 +337,7 @@ a:hover {
 	-webkit-transition-property: transform;
 	transition-property: transform;
 }
+
 .hvr-bubble-float-bottom:before {
 	position: absolute;
 	z-index: -1;
@@ -162,14 +349,17 @@ a:hover {
 	-webkit-transition-property: transform;
 	transition-property: transform;
 }
+
 .hvr-bubble-float-bottom:hover, .hvr-bubble-float-bottom:focus, .hvr-bubble-float-bottom:active {
 	-webkit-transform: translateY(-10px);
 	transform: translateY(-10px);
 }
+
 .hvr-bubble-float-bottom:hover:before, .hvr-bubble-float-bottom:focus:before, .hvr-bubble-float-bottom:active:before {
 	-webkit-transform: translateY(10px);
 	transform: translateY(10px);
 }
+
 .fp-section.fp-table {
 	padding-top: 0 !important;
 }
